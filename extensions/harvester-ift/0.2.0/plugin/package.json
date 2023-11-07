@@ -1,0 +1,19 @@
+{
+  "name": "harvester-ift",
+  "description": "harvester-ift plugin",
+  "version": "0.2.0",
+  "private": false,
+  "rancher": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.18",
+    "@vue/cli-service": "4.5.18",
+    "@vue/cli-plugin-typescript": "4.5.18"
+  },
+  "files": [
+    "**/*"
+  ],
+  "main": "harvester-ift-0.2.0.umd.min.js"
+}

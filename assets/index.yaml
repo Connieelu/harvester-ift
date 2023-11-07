@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  harvester-ift:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.7.3'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.2.0
+    created: "2023-11-07T07:16:29.716787337Z"
+    description: harvester-ift plugin
+    digest: 8803db77a02419783f90ebc9b475fc39b58efdd8b345fe08d2f0df4e59be21af
+    name: harvester-ift
+    type: application
+    urls:
+    - assets/harvester-ift/harvester-ift-0.2.0.tgz
+    version: 0.2.0
+generated: "2023-11-07T07:16:29.715946733Z"
