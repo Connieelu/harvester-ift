@@ -12,12 +12,12 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-11-07T09:17:13.523476079Z"
+    created: "2023-11-07T09:33:18.979603431Z"
     description: harvester-ift plugin
-    digest: cd5e2d732bbb2bc1551d6ecb3cb16f9b535fc88ed611ed92a0deadfd560eeab4
+    digest: a7eba5d68937683c58bcaf798390b8ac8b3324ca862bb2fe9c737cdd8ab0b752
     name: harvester-ift
     type: application
     urls:
     - assets/harvester-ift/harvester-ift-0.2.0.tgz
     version: 0.2.0
-generated: "2023-11-07T09:17:13.520957497Z"
+generated: "2023-11-07T09:33:18.97801317Z"
