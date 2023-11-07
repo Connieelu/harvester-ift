@@ -1,6 +1,6 @@
 import {
-  NAMESPACE_FILTER_SPECIAL as SPECIAL,
-  NAMESPACE_FILTER_ALL as ALL,
+  // NAMESPACE_FILTER_SPECIAL as SPECIAL,
+  // NAMESPACE_FILTER_ALL as ALL,
   NAMESPACE_FILTER_ALL_ORPHANS as ALL_ORPHANS,
 } from '@shell/utils/namespace-filter';
 import { MANAGEMENT } from '@shell/config/types';
@@ -14,8 +14,8 @@ export default {
     notFilterNamespaces
   }: any) => {
     const out = [{
-      id:    ALL,
-      kind:  SPECIAL,
+      id:    'all',
+      kind:  'special',
       label: rootGetters['i18n/t']('nav.ns.all'),
     }];
 

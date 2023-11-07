@@ -1,12 +1,9 @@
 import { CoreStoreSpecifics, CoreStoreConfig } from '@shell/core/types';
-
+import { SteveFactory, steveStoreInit } from '@shell/plugins/steve/index';
+import { PRODUCT_NAME } from '../../types';
 import getters from './getters';
 import mutations from './mutations';
 import actions from './actions';
-
-import { PRODUCT_NAME } from '../../types';
-
-import { SteveFactory, steveStoreInit } from '@shell/plugins/steve/index';
 
 const harvesterFactory = (): CoreStoreSpecifics => {
   const steveFactory = SteveFactory();

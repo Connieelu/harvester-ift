@@ -1,0 +1,1 @@
+declare module '@shell/plugins/steve/index';
